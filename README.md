@@ -7,10 +7,14 @@ I want to make a sign-up page for a fictional web-based game service. Maybe I ca
 TO-DO:
 
 <li>
-    <ul>[ ] Get Background Images</ul>
-    <ul>[ ] Overall Scaffolding Design</ul>
-    <ul>[ ] Forms</ul>
-    <ul>[ ] Password Check (Javascript)</ul>
-    <ul>[ ] Submit Button</ul>
-    <ul>[ ] Login Page Link</ul>
+    <ul>[X] Get Background Images</ul>
+    <ul>[X] Overall Scaffolding Design</ul>
+    <ul>[X] Forms</ul>
+    <ul>[X] Password Check (Javascript)</ul>
+    <ul>[X] Submit Button</ul>
+    <ul>[X] Login Page Link</ul>
 </li>
+
+UPDATE: August 1, 2022
+
+Did everything in one day, much faster than I expected. It was good practice working with design. Overall, I like how the page turned out very clean, and I think I'm enjoying the designing process.
