@@ -1,0 +1,36 @@
+:root {
+    background-color: rgba(20, 9, 57, 0.888);
+}
+
+#background {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#headercontainer {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 1rem 1rem;
+}
+
+header {
+    font-family: 'Courier New', monospace;
+    color: white;
+    font-size: 8vw;
+    font-weight: bolder;
+    padding: 0.5rem 0 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+}
+
+#formcontainerbackground {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem 1rem 1rem 1rem;
+    position: relative;
+    top: 1rem;
+    left: 10%;
+    height: 10px;
+    width: 80%;
+}
