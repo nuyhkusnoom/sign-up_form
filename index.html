@@ -16,8 +16,28 @@
     </div>
 
     <div id="formcontainerbackground">
+        <p>Sign up for Infiltration: The Game</p>
         <div id="formcontainer">
+            <form id="form" onsubmit="return false">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" minlength="4" maxlength="12" required>
+                <label for="email">E-mail Address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" minlength="6" required>
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="password" id="confirmpassword" name="confirmpassword" required>
+                
+                
+                <label for="newsletter">Receive Newsletter?</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
 
+                <div id="buttoncontainer">
+                    <button id="signupbutton" type="submit" value="Sign Up">Sign Up</button>
+                </div>
+            </form>
         </div>
 
 

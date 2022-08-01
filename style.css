@@ -1,15 +1,19 @@
 :root {
     background-color: rgba(20, 9, 57, 0.888);
+    display: flex;
+    justify-content: center;
 }
 
 #background {
-    max-width: 100%;
+    max-width: 1000px;
     height: auto;
-    width: 100%;
+    width: 95vw;
     border-radius: 1rem 1rem 0 0;
 }
 
 #headercontainer {
+    max-width: 1000px;
+    width: 95vw;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 0 0 1rem 1rem;
 }
@@ -17,20 +21,100 @@
 header {
     font-family: 'Courier New', monospace;
     color: white;
-    font-size: 8vw;
+    font-size: clamp(12px, 10vw, 100px);
     font-weight: bolder;
     padding: 0.5rem 0 0.5rem 0;
     display: flex;
     justify-content: center;
-    border: 1px;
 }
 
 #formcontainerbackground {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 1rem 1rem 1rem 1rem;
     position: relative;
-    top: 1rem;
-    left: 10%;
-    height: 10px;
-    width: 80%;
+    left: 5%;
+    height: auto;
+    width: 90%;
+    padding-bottom: 5%;
+}
+
+p {
+    font-family: 'Courier New', monospace;
+    color: white;
+    font-size: clamp(12px, 3vw, 30px);
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+#formcontainer {
+    background: rgba(255, 255, 255, 0.01);
+    position: relative;
+    border-radius: 1rem 1rem 1rem 1rem;
+    height: auto;
+    left: 5%;
+    height: auto;
+    width: 90%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: clamp(12px, 3vw, 18px);
+    color: white;
+    display: block;
+    margin: 5px 0 5px 0;
+}
+
+input {
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: clamp(12px, 3vw, 18px);
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 0 15px 0;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#signupbutton {
+    font-family: 'Courier New', monospace;
+    font-size: clamp(16px, 4vw, 24px);
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.10);
+    margin: 15px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#signupbutton:hover {
+    font-family: 'Courier New', monospace;
+    font-size: clamp(16px, 4vw, 24px);
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.20);
+    margin: 15px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    transform: scale(1.02);
+}
+
+#buttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.error {
+    border-color: red;
 }
