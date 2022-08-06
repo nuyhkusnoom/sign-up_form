@@ -1,5 +1,7 @@
 # sign-up_form
 
+Live Demo: https://nuyhkusnoom.github.io/sign-up_form/
+
 My second project from The Odin Project. This is to get practice using HTML forms and CSS and just design in general. Just kind of thrown into the deep end with this one after learning a few concepts. I guess I'll figure it out.
 
 I want to make a sign-up page for a fictional web-based game service. Maybe I can re-use the code in the future.
